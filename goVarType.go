@@ -14,5 +14,5 @@ func main() {
 	i = 40.0
 	j = I + j
 
-	fmt.Printf("%v %T", i, i)
+	fmt.Printf("%v %T\n", i, i)
 }
