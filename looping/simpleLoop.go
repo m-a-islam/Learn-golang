@@ -25,4 +25,14 @@ func main() {
 		fmt.Println(i)
 		i++
 	}
+
+	// infinite loop
+	l := 0
+	for {
+		fmt.Println(l)
+		l++
+		if l == 5 {
+			break
+		}
+	}
 }
