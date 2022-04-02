@@ -28,4 +28,9 @@ func main() {
 	for key, value := range sentence {
 		fmt.Println(key, string(value))
 	}
+
+	// here underscore variable,which means we don't care about that varibale.
+	for _, val := range statePopulations {
+		fmt.Println(val)
+	}
 }
